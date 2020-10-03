@@ -1,0 +1,19 @@
+{
+  "name": "node_tts",
+  "version": "0.0.1",
+  "description": "create package.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "jjeong",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^3.1.1",
+    "fs": "0.0.1-security",
+    "utils": "^0.3.1"
+  }
+}
